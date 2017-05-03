@@ -1,10 +1,9 @@
-// Fonts
+// Fonts --------------------------------------------------------------------
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Ubuntu');
 
 .font1{
   font-family: 'Ubuntu', sans-serif;
 }
-
 .font2 {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -33,6 +32,8 @@
   font-size: $responsive;
 }
 
+
+//Colors --------------------------------------------------------------------
 .color1 {
   color: #311847;
 }
@@ -60,7 +61,7 @@ $colorGradient2: rgba(230,20,100,0.8);
   -webkit-transition: all 1s;
 }
 
-// Body
+// Body --------------------------------------------------------------------
 body {
   @extend .font1;
   padding: 0;
@@ -73,7 +74,7 @@ div {
   margin: 0;
 }
 
-// Background Image
+// Background Image --------------------------------------------------------------------
 .backgroundImage {
   width: 100%;
   height: 100%;
@@ -87,11 +88,7 @@ div {
   background-size: cover;
 }
 
-// Navbar
-.navbar {
-  display: none;
-}
-
+// Reusable General Stuff --------------------------------------------------------------------
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
@@ -114,7 +111,7 @@ div {
   border: 1px white solid;
 }
 
-// Flexboxes
+// HomePage --------------------------------------------------------------------
 
 .mainContainer {
   @extend .flex;
@@ -165,24 +162,6 @@ div {
     text-align: left;
   }
 }
-// .nav2 {
-//   @extend .nav1;
-// }
-//
-// .nav3 {
-//   @extend .nav1;
-//   .nav3Text {
-//     margin: auto;
-//     font-size: 1em;
-//   }
-// }
-// .nav4 {
-//   @extend .nav1;
-//   .nav4Text {
-//     margin: auto;
-//     font-size: 1em;
-//   }
-// }
 
 .section1Box {
   width: 100%;
@@ -198,3 +177,9 @@ div {
   border: 0;
   text-align: center;
 }
+
+// ----------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------------
+
+
+//MiniProject --------------------------------------------------------------------

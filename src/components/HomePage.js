@@ -12,7 +12,10 @@ const HomePage = () => {
           <div className="navBox">
             <div className="nav1">
               <div className="nav1Text">
-                richardmands.com | Mini-Project
+                richardmands.com
+              </div>
+              <div className="nav1Text">
+                | Mini-Project
               </div>
             </div>
             <div className="nav2" />
@@ -37,12 +40,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="section1Box">
-          <div className="section1">
-            <MiniProject />
-          </div>
-        </div>
-
+        <MiniProject />
 
       </div>
     </div>

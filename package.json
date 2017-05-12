@@ -9,7 +9,7 @@
     "preinstall": "node tools/nodeVersionCheck.js",
     "setup": "node tools/setup/setupMessage.js && npm install && node tools/setup/setup.js",
     "start": "npm-run-all --parallel open:src",
-    "startdist": "npm-run-all --parallel open:dist",
+    "diststart": "npm-run-all --parallel open:dist",
     "open:src": "babel-node tools/srcServer.js",
     "open:dist": "babel-node tools/distServerExpress.js",
     "lint": "esw webpack.config.* src tools --color",

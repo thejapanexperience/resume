@@ -125,7 +125,7 @@ div {
   background: linear-gradient(to right, $colorGradient1 , $colorGradient2); /* Standard syntax */
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  // padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -199,4 +199,104 @@ div {
   @extend .font2;
   @include responsive-font(2vw, 20px, 20px, 20px);
   padding-top: 10px;
+}
+
+
+//RESUME --------------------------------------------------------------------
+
+.resumeBox {
+  width: 100%;
+  @extend .flex;
+}
+
+.letterBox {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  z-index: 1;
+  opacity: 1;
+}
+
+.letterBox::after {
+  padding-top: 129.4%;
+  /* 16:9 ratio */
+  display: block;
+  content: '';
+}
+
+.letter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* fill parent */
+  // background-color: deepskyblue;
+  /* let's see it! */
+  // color: white;
+}
+
+.letterContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 5px white solid;
+}
+
+.firstRow {
+  @extend .flex;
+  width: 100%;
+  background-color: yellow;
+}
+
+.four {
+  @extend .flex;
+  width: calc(25% - 2px);
+  height: 100%;
+  margin-right: 2px;
+  background-color: pink;
+}
+
+.imageBox {
+  @extend .flex;
+  width: 100%;
+}
+
+.image {
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.boxBox {
+  @extend .flex;
+  width: 100%;
+}
+.box {
+  @extend .flex;
+  width: 100%;
+  margin: auto;
+}
+.titleBox {
+  width: 100%;
+  height: 15%;
+  border: 2px black solid;
+}
+.titleContent {
+  text-align: center;
+}
+.contentBox {
+  width: 100%;
+  height: 85%;
+  // border: 2px black solid;
+}
+.contentContent {
+  @extend .font2;
+  font-size: 1.0vw;
+  text-align: left;
+  padding: 5px;
 }

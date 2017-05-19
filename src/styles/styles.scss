@@ -233,7 +233,7 @@ div {
   bottom: 0;
   right: 0;
   left: 0;
-  padding: 5px;
+  padding: 3vw;
   /* fill parent */
   // background-color: deepskyblue;
   /* let's see it! */
@@ -250,14 +250,14 @@ div {
 .row {
   @extend .flex;
   width: 100%;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .four {
   @extend .flex;
-  width: calc(25% - 2px);
+  width: calc(25% - 10px);
   height: 100%;
-  margin-left: 2px;
+  margin-left: 10px;
 }
 .fourImg {
   @extend .flex;
@@ -273,12 +273,12 @@ div {
 
 .two {
   @extend .flex;
-  width: calc(50% - 1px);
+  width: calc(50% - 5px);
   height: 100%;
 }
 .space {
   width: 0;
-  margin-right: 2px;
+  margin-left: 10px;
 }
 
 .imageBox {
@@ -297,6 +297,7 @@ div {
 .boxBox {
   @extend .flex;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.08)
 }
 .box {
   @extend .flex;
@@ -307,13 +308,17 @@ div {
   width: 100%;
   height: 15%;
   border: 2px black solid;
+  background-color: rgba(0, 0, 0, 0.12);
 }
 .titleContent {
+  @extend .font1;
+  font-size: 1.5vw;
   text-align: center;
 }
 .contentBox {
   width: 100%;
   height: 85%;
+  padding: 5px;
   // border: 2px black solid;
 }
 .contentContent {

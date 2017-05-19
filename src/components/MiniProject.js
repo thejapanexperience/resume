@@ -16,9 +16,9 @@ const MiniProject = () => {
             <div className="letter">
               <div className="letterContent">
 
-                <div className="firstRow">
+                <div className="row">
 
-                  <div className="four">
+                  <div className="fourImg">
                     <div className="imageBox">
                       <img className="img" src={require("../images/meSquare.jpeg")} alt=""/>
                     </div>
@@ -49,7 +49,7 @@ const MiniProject = () => {
                       <div className="box">
                         <div className="titleBox">
                           <div className="titleContent">
-                            INTRODUCTION
+                            QUICK POINTS
                           </div>
                         </div>
 
@@ -67,7 +67,178 @@ const MiniProject = () => {
                       <div className="box">
                         <div className="titleBox">
                           <div className="titleContent">
-                            INTRODUCTION
+                            CONTACT
+                          </div>
+                        </div>
+
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div className="row">
+
+                  <div className="one">
+                    <div className="boxBox">
+                      <div className="box">
+                        <div className="titleBox">
+                          <div className="titleContent">
+                            PROFILE
+                          </div>
+                        </div>
+
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div className="row">
+
+                  <div className="two">
+                    <div className="boxBox">
+                      <div className="box">
+                        <div className="titleBox">
+                          <div className="titleContent">
+                            CINDERHOUSE / EDUKU
+                          </div>
+                        </div>
+
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="space"/>
+
+                  <div className="two">
+                    <div className="boxBox">
+                      <div className="box">
+                        <div className="titleBox">
+                          <div className="titleContent">
+                            CODING HOUSE
+                          </div>
+                        </div>
+
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div className="row">
+
+                  <div className="two">
+                    <div className="boxBox">
+                      <div className="box">
+                        <div className="titleBox">
+                          <div className="titleContent">
+                            TEACHING
+                          </div>
+                        </div>
+
+
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="space"/>
+
+                  <div className="two">
+                    <div className="boxBox">
+                      <div className="box">
+                        <div className="titleBox">
+                          <div className="titleContent">
+                            EDUCATION
+                          </div>
+                        </div>
+
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div className="row">
+
+                  <div className="two">
+                    <div className="boxBox">
+                      <div className="box">
+                        <div className="titleBox">
+                          <div className="titleContent">
+                            LANGUAGES & PLATFORMS
+                          </div>
+                        </div>
+
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="space"/>
+
+                  <div className="two">
+                    <div className="boxBox">
+                      <div className="box">
+                        <div className="titleBox">
+                          <div className="titleContent">
+                            PERSONAL INFORMATION
+                          </div>
+                        </div>
+
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div className="row">
+
+                  <div className="one">
+                    <div className="boxBox">
+                      <div className="box">
+                        <div className="titleBox">
+                          <div className="titleContent">
+                            QUICK NOTE
                           </div>
                         </div>
 

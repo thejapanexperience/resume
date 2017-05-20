@@ -123,7 +123,7 @@ const MiniProject = () => {
                         </div>
                       </div>
                       <div className="contentContent">
-                        Co-creator of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a>
+                        Co-creator of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a>.
                       </div>
 
                     </div>
@@ -143,14 +143,30 @@ const MiniProject = () => {
                           Student | San Francisco, USA
                         </div>
                         <div className="contentContent">
-                          Trained 14 hours a day for three months at a live-in coding bootcamp as a deep-dive into full-stack javascript development.
+                          Trained 14 hours a day for three months at a live-in coding bootcamp.
                         </div>
                         <div className="contentContent">
-                          React, React-Native, Flux, Redux, Node, Express, Mongo, Firebase, jQuery, Socket.Io Amazon Web Services, Google APIs and more.
+                          React, React-Native, Flux, Redux, Node, Express, Mongo, MySQL, Firebase, jQuery, Socket.Io Amazon Web Services, Google APIs and more.
                         </div>
                         <div className="contentContent">
                           Part of a team that won the Cisco sponsor prize at the Lady Problems hackathon in San Francisco in October 2016.
                         </div>
+                      </div>
+
+                      <div className="titleBox">
+                        <div className="titleContent">
+                          SELF-STUDY
+                          | Dec '16 - Present
+                        </div>
+                      </div>
+                      <div className="contentBox">
+                        <div className="contentContent">
+                          I have completed the following online courses:
+                        </div>
+                        <div className="contentContent">
+
+                        </div>
+
                       </div>
 
                     </div>
@@ -165,21 +181,20 @@ const MiniProject = () => {
 
                       <div className="titleBox">
                         <div className="titleContent">
-                          TEACHING
+                          TEACHING | Apr '12 - Jul '16
                         </div>
                       </div>
                       <div className="contentBox">
                         <div className="contentContent">
-                          <a href="https://bsn.org.cn/" target="_blank">The British School of Nanjing</a>
+                          <a href="https://bsn.org.cn/" target="_blank">The British School of Nanjing</a> | Science / ICT Teacher | Nanjing, China
                         </div>
                         <div className="contentContent">
-                          April '12 - July '16 | Position: Science / IT Teacher | Nanjing, China
                         </div>
                         <div className="contentContent">
                           Taught science and ICT to students aged 10-18.
                         </div>
                         <div className="contentContent">
-                          Secondary-school assessment coordinator. Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers.
+                          Assessment Coordinator. Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers.
                         </div>
                         <div className="contentContent">
                           Won $2000 technology development prize from the <a href="https://www.britishschools.co.uk/" target="_blank">British Schools Foundation</a>.
@@ -200,12 +215,37 @@ const MiniProject = () => {
 
                       <div className="titleBox">
                         <div className="titleContent">
-                          EDUCATION
+                          TEACHING CONT. | Apr '04 - Mar '12
                         </div>
                       </div>
                       <div className="contentBox">
                         <div className="contentContent">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          <a href="http://www.londonacademy.org.uk/" target="_blank">London Academy</a> | Secondary Science Teacher | London, UK
+                        </div>
+                        <div className="contentContent">
+                          Various | English Teacher | Tokyo, Japan
+                        </div>
+                      </div>
+                      
+                      <div className="titleBox">
+                        <div className="titleContent">
+                          UNIVERSITY DEGREE | '99 - '03
+                        </div>
+                      </div>
+                      <div className="contentBox">
+                        <div className="contentContent">
+                          <a href="https://www.york.ac.uk/" target="_blank">University of York</a> | Biochemistry BSc | York, UK
+                        </div>
+                      </div>
+
+                      <div className="titleBox">
+                        <div className="titleContent">
+                          TEACHING QUALIFICATION | '09 - '10
+                        </div>
+                      </div>
+                      <div className="contentBox">
+                        <div className="contentContent">
+                          <a href="http://www.ucl.ac.uk/ioe" target="_blank">Institute of Education : UCL</a> | Secondary Science PGCE | London, UK
                         </div>
                       </div>
 
@@ -272,7 +312,7 @@ const MiniProject = () => {
                   </div>
 
                 </div>
-                
+
               </div>
             </div>
           </div>

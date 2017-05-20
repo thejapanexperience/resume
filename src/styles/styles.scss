@@ -290,7 +290,7 @@ div {
 .row {
   display: flex;
   width: 100%;
-  padding-bottom: 0.5vw;
+  padding-bottom: 0.8vw;
 }
 
 .four {
@@ -298,18 +298,17 @@ div {
   flex:0 0 25%;
 }
 .fourInner {
-  width: calc(100% - 0.4vw);
+  width: calc(100% - 0.8vw);
   height: 100%;
-  margin-left: 0.4vw;
+  margin-left: 0.8vw;
   background-color: rgba(0, 0, 0, 0.08);
-  &:hover {
-    @extend .transition1;
-    // box-shadow: 5px 5px 5px rgba(0,0,0,.35);
-    box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
-  }
-  &:not(:hover){
-    @extend .transition1;
-  }
+  // &:hover {
+  //   @extend .transition1;
+  //   box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
+  // }
+  // &:not(:hover){
+  //   @extend .transition1;
+  // }
 }
 .four:nth-of-type(1){
   .fourInner{
@@ -323,18 +322,17 @@ div {
   flex:0 0 50%;
 }
 .twoInner {
-  width: calc(100% - 0.4vw);
+  width: calc(100% - 0.8vw);
   height: 100%;
-  margin-left: 0.4vw;
+  margin-left: 0.8vw;
   background-color: rgba(0, 0, 0, 0.08);
-  &:hover {
-    @extend .transition1;
-    // box-shadow: 5px 5px 5px rgba(0,0,0,.35);
-    box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
-  }
-  &:not(:hover){
-    @extend .transition1;
-  }
+  // &:hover {
+  //   @extend .transition1;
+  //   box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
+  // }
+  // &:not(:hover){
+  //   @extend .transition1;
+  // }
 }
 .two:nth-of-type(1){
   .twoInner{
@@ -351,14 +349,13 @@ div {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.08);
-  &:hover {
-    @extend .transition1;
-    // box-shadow: 5px 5px 5px rgba(0,0,0,.35);
-    box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
-  }
-  &:not(:hover){
-    @extend .transition1;
-  }
+  // &:hover {
+  //   @extend .transition1;
+  //   box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
+  // }
+  // &:not(:hover){
+  //   @extend .transition1;
+  // }
 }
 .one:nth-of-type(1){
   .oneInner{
@@ -400,14 +397,16 @@ div {
   @extend .flex;
   width: 100%;
   padding-top: 0.25vw;
+  padding-bottom: 0.25vw;
 }
 .contentContent {
   margin: auto;
-  margin-top: 0px;
   margin-left: 0;
+  // width: 100%;
+  // margin-top: 0px;
   padding: 0.5vw;
-  padding-bottom: 0.35vw;
-  padding-top: 0;
+  padding-bottom: 0.3vw;
+  padding-top: 0vw;
   @extend .font2;
   @include responsive-font(0.95vw, 1px, 12px, 12px);
   text-align: left;

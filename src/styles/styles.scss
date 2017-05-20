@@ -295,7 +295,7 @@ div {
 .row {
   @extend .flex;
   width: 100%;
-  padding-bottom: 0.8vw;
+  padding-bottom: 0.5vw;
 }
 
 .four {
@@ -303,6 +303,7 @@ div {
   width: calc(25% - 0.5vw);
   height: 100%;
   margin-left: 0.5vw;
+  background-color: rgba(0, 0, 0, 0.08);
 }
 .fourImg {
   @extend .flex;
@@ -318,12 +319,12 @@ div {
 
 .two {
   @extend .flex;
-  width: calc(50% - 5px);
+  width: calc(50% - 0.25vw);
   height: 100%;
 }
 .space {
   width: 0;
-  margin-left: 10px;
+  margin-left: 0.5vw;
 }
 
 .imageBox {
@@ -339,7 +340,7 @@ div {
 .boxBox {
   @extend .flex;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.08);
+  // background-color: rgba(0, 0, 0, 0.08);
   color: black;
   &:hover {
     @extend .transition1;
@@ -368,7 +369,7 @@ div {
   padding: 0.5vw;
   @extend .font1;
   pointer-events: none;
-  @include responsive-font(1.8vw, 1px, 22px, 25px);
+  @include responsive-font(1.4vw, 1px, 22px, 25px);
   text-align: center;
 }
 .contentBox {

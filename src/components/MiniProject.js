@@ -79,11 +79,7 @@ const MiniProject = () => {
                             www.linkedin.com/in/richardmands<br/>
                             github.com/thejapanexperience<br/>
                             twitter.com/RichardMands<br/>
-                            www.facebook.com/richard.mands<br/>
-                            <br/><br/><br/><br/>
-
-
-
+                            www.facebook.com/richard.mands
                           </div>
                         </div>
                       </div>
@@ -121,32 +117,32 @@ const MiniProject = () => {
                       <div className="box">
                         <div className="titleBox">
                           <div className="titleContent">
-                            CINDERHOUSE / EDUKU
+                            CINDERHOUSE / EDUKU | Oct '14 - Present
                           </div>
                         </div>
 
                         <div className="contentBox">
                           <div className="contentContent">
-                            October '14 - Present | Position: Partner / Co-Founder | Nanjing, China
+                            Partner / Co-Founder | Nanjing, China
                           </div>
 
                           <div className="contentContent">
+                            <a href="http://www.cinderhouse.com.au/" target="_blank">EDUKU</a> |
+                            Co-creator, co-owner, photographer, videographer, copy-editor, head of technology, and a million other roles.
+                          </div>
+                          <div className="contentContent">
+                            Jan '17 - Present | Lead developer of the Eduku platform that will allow users to interact with online learning resources as well as participate in the allocation of profits towards social outcomes.
+                          </div>
+                          <div className="contentContent">
+                            React and Redux front-end, Auth0 to manage authentication and user creation, a MongoDB / Express backend.
+                          </div>
+                          <div className="contentContent">
                             <a href="http://www.cinderhouse.com.au/" target="_blank">CINDERHOUSE CREATIVE</a> |
-                            Photographer, videographer (2D and 360), and video-editor on projects for clients including Acamis, Outback Tea and Coffee, HubbloVR, SkyData and more.
+                            Photographer, videographer (2D and 360), video-editor, social-media manager, and more on projects for clients including Acamis, Outback Tea and Coffee, HubbloVR, SkyData.
                           </div>
                         </div>
                         <div className="contentContent">
-                          Co-creator of 3 socially responsible business case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a>
-                        </div>
-                        <div className="contentContent">
-                          <a href="http://www.cinderhouse.com.au/" target="_blank">EDUKU</a> |
-                          Co-creator, co-owner, photographer, videographer, copy-editor, head of technology, and a million other roles.
-                        </div>
-                        <div className="contentContent">
-                          Currently, lead developer of the Eduku platform that will allow users to interact with online learning resources as well as participate in the allocation of profits towards social outcomes.
-                        </div>
-                        <div className="contentContent">
-                          React and Redux front-end, Auth0 to manage authentication and user creation, a MongoDB / Express backend.
+                          Co-creator of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a>
                         </div>
                       </div>
                     </div>
@@ -160,12 +156,13 @@ const MiniProject = () => {
                         <div className="titleBox">
                           <div className="titleContent">
                             CODING HOUSE
+                            | Sep '16 - Nov '16
                           </div>
                         </div>
 
                         <div className="contentBox">
                           <div className="contentContent">
-                            September '16 - November '16 | Position: Student | San Francisco, USA
+                            Student | San Francisco, USA
                           </div>
                           <div className="contentContent">
                             Trained 14 hours a day for three months at a live-in coding bootcamp as a deep-dive into full-stack javascript development.
@@ -198,7 +195,7 @@ const MiniProject = () => {
 
                         <div className="contentBox">
                           <div className="contentContent">
-                            British School of Nanjing
+                            <a href="https://bsn.org.cn/" target="_blank">The British School of Nanjing</a>
                           </div>
                           <div className="contentContent">
                             April '12 - July '16 | Position: Science / IT Teacher | Nanjing, China
@@ -216,7 +213,7 @@ const MiniProject = () => {
                             Developed training materials and led inset for  staff with the goal of improving IT integration.
                           </div>
                           <div className="contentContent">
-                            Created and led highly successful after-school programs related to charity work and fundraising. Organised overseas school trips to Borneo, Cambodia and Vietnam.
+                            Created and led highly successful after-school programs related to charity work and fundraising.
                           </div>
                         </div>
                       </div>

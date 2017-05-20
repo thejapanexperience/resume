@@ -279,52 +279,92 @@ div {
   right: 0;
   left: 0;
   padding: 2vw;
-  /* fill parent */
-  // background-color: deepskyblue;
-  /* let's see it! */
-  // color: white;
 }
 
 .letterContent {
   position: relative;
   width: 100%;
   height: 100%;
-  // border: 5px white solid;
 }
 
 .row {
-  @extend .flex;
+  display: flex;
   width: 100%;
   padding-bottom: 0.5vw;
 }
 
 .four {
-  @extend .flex;
-  width: calc(25% - 0.5vw);
+  position:relative;
+  flex:0 0 25%;
+}
+.fourInner {
+  width: calc(100% - 0.4vw);
   height: 100%;
-  margin-left: 0.5vw;
+  margin-left: 0.4vw;
   background-color: rgba(0, 0, 0, 0.08);
+  &:hover {
+    @extend .transition1;
+    // box-shadow: 5px 5px 5px rgba(0,0,0,.35);
+    box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
+  }
+  &:not(:hover){
+    @extend .transition1;
+  }
 }
-.fourImg {
-  @extend .flex;
-  width: 25%;
-  height: 100%;
-}
-
-.one {
-  @extend .flex;
-  width: 100%;
-  height: 100%;
+.four:nth-of-type(1){
+  .fourInner{
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .two {
-  @extend .flex;
-  width: calc(50% - 0.25vw);
-  height: 100%;
+  position:relative;
+  flex:0 0 50%;
 }
-.space {
-  width: 0;
-  margin-left: 0.5vw;
+.twoInner {
+  width: calc(100% - 0.4vw);
+  height: 100%;
+  margin-left: 0.4vw;
+  background-color: rgba(0, 0, 0, 0.08);
+  &:hover {
+    @extend .transition1;
+    // box-shadow: 5px 5px 5px rgba(0,0,0,.35);
+    box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
+  }
+  &:not(:hover){
+    @extend .transition1;
+  }
+}
+.two:nth-of-type(1){
+  .twoInner{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.one {
+  position:relative;
+  flex:0 0 100%;
+}
+.oneInner {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.08);
+  &:hover {
+    @extend .transition1;
+    // box-shadow: 5px 5px 5px rgba(0,0,0,.35);
+    box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
+  }
+  &:not(:hover){
+    @extend .transition1;
+  }
+}
+.one:nth-of-type(1){
+  .oneInner{
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .imageBox {
@@ -337,32 +377,16 @@ div {
   height: 100%;
 }
 
-.boxBox {
-  @extend .flex;
-  width: 100%;
-  // background-color: rgba(0, 0, 0, 0.08);
-  color: black;
-  &:hover {
-    @extend .transition1;
-    // box-shadow: 5px 5px 5px rgba(0,0,0,.35);
-    box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
-  }
-  &:not(:hover){
-    @extend .transition1;
-  }
-}
-.box {
-  @extend .flex;
-  width: 100%;
-  margin: auto;
-}
 .titleBox {
   @extend .flex;
   pointer-events: none;
   width: 100%;
-  height: 15%;
-  border: 2px black solid;
+  height: 3vw;
   background-color: rgba(0, 0, 0, 0.12);
+  border: 2px black solid;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 .titleContent {
   margin: auto;
@@ -375,11 +399,11 @@ div {
 .contentBox {
   @extend .flex;
   width: 100%;
-  height: 85%;
   padding-top: 0.25vw;
 }
 .contentContent {
   margin: auto;
+  margin-top: 0px;
   margin-left: 0;
   padding: 0.5vw;
   padding-bottom: 0.35vw;
@@ -388,3 +412,32 @@ div {
   @include responsive-font(0.95vw, 1px, 12px, 12px);
   text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+// .flex-container {
+//   width: 100%;
+//   display:flex;
+// }
+// .row { display:flex; }
+// .flex-item {
+//   margin-left: 5px;
+//   flex:0 0 calc(25% - 5px);
+//   position:relative;
+//   background-color: yellow;
+// }
+// .four { flex:0 0 25%; position:relative; }
+// .fourImg { flex:0 0 25%; position:relative; }
+// .flex-item img { display:block; max-width:100%; width:100%; height:auto; }
+// .img { display:block; max-width:100%; width:100%; height:auto; }
+// .flex-item-inner { position:absolute; top:0; left:0; right:0; bottom:0; overflow:hidden; }
+// .backgroundEven { position:absolute; top:0; left:0; right:0; bottom:0; overflow:auto; }
+// .flex-item-inner p:first-child { margin-top:0; }

@@ -69,6 +69,11 @@ div {
   margin: 0;
 }
 
+a {
+  text-decoration-line: none;
+  color: inherit;
+}
+
 // Background Image --------------------------------------------------------------------
 .backgroundImage {
   width: 100%;
@@ -278,97 +283,13 @@ div {
   bottom: 0;
   right: 0;
   left: 0;
-  padding: 2vw;
+  padding: 2%;
 }
 
 .letterContent {
   position: relative;
   width: 100%;
   height: 100%;
-}
-
-.row {
-  display: flex;
-  width: 100%;
-  padding-bottom: 0.8vw;
-}
-
-.four {
-  position:relative;
-  flex:0 0 25%;
-}
-.fourInner {
-  width: calc(100% - 0.8vw);
-  height: 100%;
-  margin-left: 0.8vw;
-  background-color: rgba(0, 0, 0, 0.08);
-  // &:hover {
-  //   @extend .transition1;
-  //   box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
-  // }
-  // &:not(:hover){
-  //   @extend .transition1;
-  // }
-}
-.four:nth-of-type(1){
-  .fourInner{
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-.two {
-  position:relative;
-  flex:0 0 50%;
-}
-.twoInner {
-  @extend .flex;
-  width: calc(100% - 0.8vw);
-  height: 100%;
-  margin-left: 0.8vw;
-  background-color: rgba(0, 0, 0, 0.08);
-  .twentyFive{
-    @extend .flex;
-    width: calc(25% - 0.8vw);
-    margin-left: 0.8vw;
-    background-color: lightGreen;
-  }
-}
-.twoInner:nth-of-type(1){
-  .twentyFive{
-    width: 25%;
-    margin-left: 0;
-  }
-}
-.two:nth-of-type(1){
-  .twoInner{
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-.one {
-  position:relative;
-  flex:0 0 100%;
-}
-.oneInner {
-  @extend .flex;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.08);
-  // &:hover {
-  //   @extend .transition1;
-  //   box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
-  // }
-  // &:not(:hover){
-  //   @extend .transition1;
-  // }
-}
-.one:nth-of-type(1){
-  .oneInner{
-    width: 100%;
-    margin-left: 0;
-  }
 }
 
 .imageBox {
@@ -385,7 +306,7 @@ div {
   @extend .flex;
   pointer-events: none;
   width: 100%;
-  height: 3vw;
+  // height: 3vw;
   background-color: rgba(0, 0, 0, 0.12);
   border: 2px black solid;
   box-sizing: border-box;
@@ -393,11 +314,13 @@ div {
     -webkit-box-sizing: border-box;
 }
 .titleContent {
+  width: 100%;
   margin: auto;
-  padding: 0.5vw;
+  padding: 8.5px;
+
   @extend .font1;
   pointer-events: none;
-  @include responsive-font(1.4vw, 1px, 22px, 25px);
+  @include responsive-font(1.5vw, 1px, 24px, 25px);
   text-align: center;
 }
 .contentBox {
@@ -407,15 +330,125 @@ div {
   padding-bottom: 0.25vw;
 }
 .contentContent {
-  width: 100%;
+  width: 98%;
   margin: auto;
   margin-left: 0;
-  // width: 100%;
-  // margin-top: 0px;
-  padding: 0.5vw;
+  padding-left: 1%;
+  padding-right: 1%;
   padding-bottom: 0.3vw;
   padding-top: 0vw;
   @extend .font2;
-  @include responsive-font(0.95vw, 1px, 12px, 12px);
+  @include responsive-font(1vw, 1px, 11px, 12px);
   text-align: left;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+.four {
+  position:relative;
+  flex:0 0 25%;
+  @media screen and (max-width: 600px){
+    flex:0 0 100%;
+  }
+}
+.fourInner {
+  width: 98%;
+  height: 98%;
+  margin-left: 2%;
+  background-color: rgba(0, 0, 0, 0.08);
+  @media screen and (max-width: 600px){
+    margin-left: 0;
+  }
+  .contentBox{
+    .contentContent{
+      width: 94%;
+      margin: auto;
+      margin-left: 0;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+  }
+}
+.four:nth-of-type(1){
+  .fourInner{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.two {
+  position:relative;
+  flex:0 0 50%;
+  @media screen and (max-width: 600px){
+    flex:0 0 100%;
+  }
+}
+.twoInner {
+  width: 98%;
+  height: 100%;
+  margin-left: 2%;
+  @media screen and (max-width: 600px){
+    margin-left: 0;
+  }
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.twoInnerFlex {
+  @extend .flex;
+  width: 98%;
+  height: 100%;
+  margin-left: 2%;
+  background-color: rgba(0, 0, 0, 0.08);
+  .twentyFive{
+    width: 24%;
+    margin-left: 1%;
+    // background-color: lightGreen;
+  }
+}
+// .twoInnerFlex:nth-of-type(1){
+//   .twentyFive{
+//     width: 25%;
+//     margin-left: 0;
+//   }
+// }
+.two:nth-of-type(1){
+  .twoInner{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.two:nth-of-type(1){
+  .twoInnerFlex{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.one {
+  position:relative;
+  flex:0 0 100%;
+}
+.oneInner {
+  @extend .flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.08);
+  .contentBox{
+    .contentContent{
+      width: 98.75%;
+      margin: auto;
+      margin-left: 0;
+      padding-left: 0.75%;
+      padding-right: 0.5%;
+    }
+  }
+}
+.one:nth-of-type(1){
+  .oneInner{
+    width: 100%;
+    margin-left: 0;
+  }
 }

@@ -6,7 +6,7 @@ const MiniProject = () => {
     <div className="section1Box">
       <div className="section1">
 
-        <h2 className="titleText">My Resume</h2>
+        {/* <h2 className="titleText">My Resume</h2> */}
 
         <div className="resumeBox">
           <div className="letterBox">
@@ -17,7 +17,7 @@ const MiniProject = () => {
 
                   <div className="four">
                     <div className="fourInner">
-                      <img className="img" src={require("../images/meWide.jpg")} alt=""/>
+                      <img className="img" src={require("../images/meWidishIsh.jpg")} alt=""/>
                     </div>
                   </div>
 
@@ -30,7 +30,7 @@ const MiniProject = () => {
                       </div>
                       <div className="contentBox">
                         <div className="contentContent">
-
+                          Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a love for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
                         </div>
                       </div>
                     </div>
@@ -45,7 +45,13 @@ const MiniProject = () => {
                       </div>
                       <div className="contentBox">
                         <div className="contentContent">
-
+                          - Coding full-time since Aug '16<br/>
+                          - Cofounder/ lead developer of Eduku<br/>
+                          - Hackathon prize winner<br/>
+                          - Happy to relocate<br/>
+                          - Available at earliest convenience<br/>
+                          - Capable photographer / videographer<br/>
+                          - UK/Canada passport holder<br/>
                         </div>
                       </div>
                     </div>
@@ -84,30 +90,31 @@ const MiniProject = () => {
                           PROFILE
                         </div>
                       </div>
-
-                      <div className="contentContent">
-                        - Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB.
-                      </div>
-                      <div className="contentContent">
-                        - Proficient in HTML, CSS, Javascript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose.
-                      </div>
-                      <div className="contentContent">
-                        - Have experience of React Native, Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo.
-                      </div>
-                      <div className="contentContent">
-                        - Won the Cisco sponsor prize at the Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system.
-                      </div>
-                      <div className="contentContent">
-                        - Co-creator and owner of 3 social enterprise case-studies that funded business-development competitions on <a href="https://herox.com/domogo" target="_blank">HeroX</a> for <a href="http://www.kitointl.org/" target="_blank">Kito International</a> graduates in Nairobi, Kenya.
-                      </div>
-                      <div className="contentContent">
-                        - Professional photographer, videographer and video editor on projects for Acamis, Outback Tea and Coffee, HubbloVR and SkyData, as well as Eduku.
-                      </div>
-                      <div className="contentContent">
-                        - Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software).
-                      </div>
-                      <div className="contentContent">
-                        - Qualified secondary science teacher with a degree in Biochemistry and 10 years of experience working in education in the UK and Asia.
+                      <div className="contentBox">
+                        <div className="contentContent">
+                          - Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB.
+                        </div>
+                        <div className="contentContent">
+                          - Proficient in HTML, CSS, Javascript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose.
+                        </div>
+                        <div className="contentContent">
+                          - Have experience of React Native, Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo.
+                        </div>
+                        <div className="contentContent">
+                          - Won the Cisco sponsor prize at the Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system.
+                        </div>
+                        <div className="contentContent">
+                          - Co-creator and owner of 3 social enterprise case-studies that funded business-development competitions on <a href="https://herox.com/domogo" target="_blank">HeroX</a> for <a href="http://www.kitointl.org/" target="_blank">Kito International</a> graduates in Nairobi, Kenya.
+                        </div>
+                        <div className="contentContent">
+                          - Professional photographer, videographer and video editor on projects for Acamis, Outback Tea and Coffee, HubbloVR and SkyData, as well as Eduku.
+                        </div>
+                        <div className="contentContent">
+                          - Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software).
+                        </div>
+                        <div className="contentContent">
+                          - Qualified secondary science teacher with a degree in Biochemistry and 10 years of experience working in education in the UK and Asia.
+                        </div>
                       </div>
 
                       {/* <div className="one50">
@@ -148,7 +155,7 @@ const MiniProject = () => {
                         </div>
                       </div>
                       <div className="contentContent">
-                        Co-creator of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a>.
+                        Co-creator of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a> that have featured in several publications including the BBC.
                       </div>
 
                     </div>
@@ -292,35 +299,64 @@ const MiniProject = () => {
                 <div className="row">
 
                   <div className="two">
-                    <div className="twoInner">
+                    <div className="twoInnerFlex">
 
                       <div className="titleBox">
                         <div className="titleContent">
-                          LANGUAGES & LIBRARIES
+                          LANGUAGES & LIBRARIES : Proficient
                         </div>
                       </div>
-
-                      <div className="twentFive">
+                      <div className="twentyFive">
                         <div className="contentBox">
                           <div className="contentContent">
                             HTML <br/>
                             CSS <br/>
                             Javascript <br/>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="twentyFive">
+                        <div className="contentBox">
+                          <div className="contentContent">
                             React.js <br/>
                             Redux <br/>
                             Flux <br/>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="twentyFive">
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Express <br/>
+                            Node.js <br/>
                             Webpack <br/>
                           </div>
                         </div>
                       </div>
-
-                      <div className="twentFive">
+                      <div className="twentyFive">
                         <div className="contentBox">
                           <div className="contentContent">
-                            Node.js <br/>
-                            Express <br/>
                             MongoDB <br/>
                             Mongoose <br/>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div className="two">
+                    <div className="twoInnerFlex">
+
+                      <div className="titleBox">
+                        <div className="titleContent">
+                          LANGUAGES & LIBRARIES : Experience
+                        </div>
+                      </div>
+
+                      <div className="twentyFive">
+                        <div className="contentBox">
+                          <div className="contentContent">
                             MySQL <br/>
                             Firebase <br/>
                             Auth0 <br/>
@@ -328,22 +364,39 @@ const MiniProject = () => {
                         </div>
                       </div>
 
-                      <div className="twentFive">
+                      <div className="twentyFive">
                         <div className="contentBox">
                           <div className="contentContent">
                             Socket.IO <br/>
+                            Tropo <br/>
+                            Amazon AWS <br/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="twentyFive">
+                        <div className="contentBox">
+                          <div className="contentContent">
                             Google APIs <br/>
                             Watson APIs <br/>
-                            Amazon Web Services <br/>
-                            Tropo <br/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="twentyFive">
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            React Native <br/>
                             React-DnD <br/>
                           </div>
                         </div>
                       </div>
 
-
                     </div>
                   </div>
+
+                </div>
+                <div className="row">
 
                   <div className="two">
                     <div className="twoInner">
@@ -355,19 +408,17 @@ const MiniProject = () => {
                       </div>
                       <div className="contentBox">
                         <div className="contentContent">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          I'm married and have a young daughter. <br/>
+                          I hold UK and Canadian passports. <br/>
+                          I can speak, read and write Japanese to an intermediate level. <br/>
                         </div>
                       </div>
 
                     </div>
                   </div>
 
-                </div>
-
-                <div className="row">
-
-                  <div className="one">
-                    <div className="oneInner">
+                  <div className="two">
+                    <div className="twoInner">
 
                       <div className="titleBox">
                         <div className="titleContent">
@@ -376,10 +427,9 @@ const MiniProject = () => {
                       </div>
                       <div className="contentBox">
                         <div className="contentContent">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+                          I currently live in Nanjing, China where I am working on Eduku. However, I am looking for a new adventure and am available to relocate at soon as possible for the right position.
                         </div>
                       </div>
-
                     </div>
                   </div>
 

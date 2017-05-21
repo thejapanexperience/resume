@@ -6,8 +6,8 @@ const HomePage = () => {
   return (
     <div>
       <div className="backgroundImage"/>
-      <div className='mainContainer'>
-        
+      <div className="mainContainer">
+
         {/* <div className="section0">
           <div className="navBox">
             <div className="nav1">

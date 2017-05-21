@@ -298,8 +298,8 @@ a {
 }
 
 .img {
+  height: 100%;
   width: 100%;
-  height: auto;
 }
 
 .titleBox {
@@ -317,7 +317,6 @@ a {
   width: 100%;
   margin: auto;
   padding: 8.5px;
-
   @extend .font1;
   pointer-events: none;
   @include responsive-font(1.5vw, 1px, 24px, 25px);
@@ -338,8 +337,14 @@ a {
   padding-bottom: 0.3vw;
   padding-top: 0vw;
   @extend .font2;
-  @include responsive-font(1vw, 1px, 11px, 12px);
   text-align: left;
+  @include responsive-font(0.95vw, 1px, 11px, 12px);
+  @media screen and (min-width: 1200px){
+    @include responsive-font(1.2vw, 1px, 12.5px, 12px);
+  }
+  @media screen and (min-width: 1300px){
+    @include responsive-font(1.5vw, 1px, 13.5px, 12px);
+  }
 }
 
 .row {

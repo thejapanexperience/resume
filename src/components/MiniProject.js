@@ -427,7 +427,7 @@ const MiniProject = () => {
                       </div>
                       <div className="contentBox">
                         <div className="contentContent">
-                          I currently live in Nanjing, China where I am working on Eduku. However, I am looking for a new adventure and am available to relocate at soon as possible for the right position.
+                          I currently live in Nanjing, China where I am working on Eduku. However, I am available to relocate at short notice for the right position.
                         </div>
                       </div>
                     </div>

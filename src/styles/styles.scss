@@ -322,17 +322,23 @@ div {
   flex:0 0 50%;
 }
 .twoInner {
+  @extend .flex;
   width: calc(100% - 0.8vw);
   height: 100%;
   margin-left: 0.8vw;
   background-color: rgba(0, 0, 0, 0.08);
-  // &:hover {
-  //   @extend .transition1;
-  //   box-shadow: 0.3vw 0.3vw 0.75vw $colorGradient2, -0.3vw -0.3vw 0.75vw $colorGradient1;
-  // }
-  // &:not(:hover){
-  //   @extend .transition1;
-  // }
+  .twentyFive{
+    @extend .flex;
+    width: calc(25% - 0.8vw);
+    margin-left: 0.8vw;
+    background-color: lightGreen;
+  }
+}
+.twoInner:nth-of-type(1){
+  .twentyFive{
+    width: 25%;
+    margin-left: 0;
+  }
 }
 .two:nth-of-type(1){
   .twoInner{
@@ -346,6 +352,7 @@ div {
   flex:0 0 100%;
 }
 .oneInner {
+  @extend .flex;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.08);
@@ -371,7 +378,7 @@ div {
 
 .img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .titleBox {
@@ -400,6 +407,7 @@ div {
   padding-bottom: 0.25vw;
 }
 .contentContent {
+  width: 100%;
   margin: auto;
   margin-left: 0;
   // width: 100%;
@@ -411,32 +419,3 @@ div {
   @include responsive-font(0.95vw, 1px, 12px, 12px);
   text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-// .flex-container {
-//   width: 100%;
-//   display:flex;
-// }
-// .row { display:flex; }
-// .flex-item {
-//   margin-left: 5px;
-//   flex:0 0 calc(25% - 5px);
-//   position:relative;
-//   background-color: yellow;
-// }
-// .four { flex:0 0 25%; position:relative; }
-// .fourImg { flex:0 0 25%; position:relative; }
-// .flex-item img { display:block; max-width:100%; width:100%; height:auto; }
-// .img { display:block; max-width:100%; width:100%; height:auto; }
-// .flex-item-inner { position:absolute; top:0; left:0; right:0; bottom:0; overflow:hidden; }
-// .backgroundEven { position:absolute; top:0; left:0; right:0; bottom:0; overflow:auto; }
-// .flex-item-inner p:first-child { margin-top:0; }

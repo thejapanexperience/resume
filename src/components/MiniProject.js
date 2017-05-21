@@ -17,7 +17,7 @@ const MiniProject = () => {
 
                   <div className="four">
                     <div className="fourInner">
-                      <img className="img" src={require("../images/meSquare.jpeg")} alt=""/>
+                      <img className="img" src={require("../images/meWide.jpg")} alt=""/>
                     </div>
                   </div>
 
@@ -78,16 +78,41 @@ const MiniProject = () => {
 
                   <div className="one">
                     <div className="oneInner">
+
                       <div className="titleBox">
                         <div className="titleContent">
                           PROFILE
                         </div>
                       </div>
-                      <div className="contentBox">
-                        <div className="contentContent">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
-                        </div>
+
+                      <div className="contentContent">
+                        - Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB.
                       </div>
+                      <div className="contentContent">
+                        - Proficient in HTML, CSS, Javascript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose.
+                      </div>
+                      <div className="contentContent">
+                        - Have experience of React Native, Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo.
+                      </div>
+                      <div className="contentContent">
+                        - Won the Cisco sponsor prize at the Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system.
+                      </div>
+                      <div className="contentContent">
+                        - Co-creator and owner of 3 social enterprise case-studies that funded business-development competitions on <a href="https://herox.com/domogo" target="_blank">HeroX</a> for <a href="http://www.kitointl.org/" target="_blank">Kito International</a> graduates in Nairobi, Kenya.
+                      </div>
+                      <div className="contentContent">
+                        - Professional photographer, videographer and video editor on projects for Acamis, Outback Tea and Coffee, HubbloVR and SkyData, as well as Eduku.
+                      </div>
+                      <div className="contentContent">
+                        - Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software).
+                      </div>
+                      <div className="contentContent">
+                        - Qualified secondary science teacher with a degree in Biochemistry and 10 years of experience working in education in the UK and Asia.
+                      </div>
+
+                      {/* <div className="one50">
+                      </div> */}
+
                     </div>
                   </div>
 
@@ -164,6 +189,16 @@ const MiniProject = () => {
                           I have completed the following online courses:
                         </div>
                         <div className="contentContent">
+                          Pluralsight |
+                          <a href="https://app.pluralsight.com/library/courses/better-css/table-of-contents" target="blank"> A Better CSS: LESS and SASS</a> |
+                          <a href="https://app.pluralsight.com/library/courses/css3-in-depth/table-of-contents" target="blank"> CSS3 In-Depth</a> |
+                          <a href="https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents" target="blank"> Building Applications with React and Flux</a> |
+                          <a href="https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents" target="blank"> Building Applications with React and Redux in ES6</a>
+                        </div>
+                        <div className="contentContent">
+                          Udacity |
+                          <a href="https://classroom.udacity.com/courses/ud893" target="blank"> Responsive Design Fundamentals</a> |
+                          <a href="https://classroom.udacity.com/courses/ud882" target="blank"> Responsive Images</a>
 
                         </div>
 
@@ -226,17 +261,6 @@ const MiniProject = () => {
                           Various | English Teacher | Tokyo, Japan
                         </div>
                       </div>
-                      
-                      <div className="titleBox">
-                        <div className="titleContent">
-                          UNIVERSITY DEGREE | '99 - '03
-                        </div>
-                      </div>
-                      <div className="contentBox">
-                        <div className="contentContent">
-                          <a href="https://www.york.ac.uk/" target="_blank">University of York</a> | Biochemistry BSc | York, UK
-                        </div>
-                      </div>
 
                       <div className="titleBox">
                         <div className="titleContent">
@@ -246,6 +270,17 @@ const MiniProject = () => {
                       <div className="contentBox">
                         <div className="contentContent">
                           <a href="http://www.ucl.ac.uk/ioe" target="_blank">Institute of Education : UCL</a> | Secondary Science PGCE | London, UK
+                        </div>
+                      </div>
+
+                      <div className="titleBox">
+                        <div className="titleContent">
+                          UNIVERSITY DEGREE | '99 - '03
+                        </div>
+                      </div>
+                      <div className="contentBox">
+                        <div className="contentContent">
+                          <a href="https://www.york.ac.uk/" target="_blank">University of York</a> | Biochemistry BSc | York, UK
                         </div>
                       </div>
 
@@ -261,14 +296,51 @@ const MiniProject = () => {
 
                       <div className="titleBox">
                         <div className="titleContent">
-                          LANGUAGES & PLATFORMS
+                          LANGUAGES & LIBRARIES
                         </div>
                       </div>
-                      <div className="contentBox">
-                        <div className="contentContent">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga laboriosam pariatur accusamus veniam, cumque vero. Doloribus ex voluptatibus architecto repudiandae blanditiis dolores, debitis, maxime eum, placeat quibusdam laboriosam est.
+
+                      <div className="twentFive">
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            HTML <br/>
+                            CSS <br/>
+                            Javascript <br/>
+                            React.js <br/>
+                            Redux <br/>
+                            Flux <br/>
+                            Webpack <br/>
+                          </div>
                         </div>
                       </div>
+
+                      <div className="twentFive">
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Node.js <br/>
+                            Express <br/>
+                            MongoDB <br/>
+                            Mongoose <br/>
+                            MySQL <br/>
+                            Firebase <br/>
+                            Auth0 <br/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="twentFive">
+                        <div className="contentBox">
+                          <div className="contentContent">
+                            Socket.IO <br/>
+                            Google APIs <br/>
+                            Watson APIs <br/>
+                            Amazon Web Services <br/>
+                            Tropo <br/>
+                            React-DnD <br/>
+                          </div>
+                        </div>
+                      </div>
+
 
                     </div>
                   </div>
